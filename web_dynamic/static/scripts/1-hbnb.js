@@ -27,7 +27,7 @@ $(document).ready(function() {
         if (amenitiesList.length > 0) {
             $('.amenities h4').text(amenitiesList);
         } else {
-            $('.amenities h4').html('&nbsp;'); // Reset to empty space if no amenities selected
+            $('.amenities h4').html('&nbsp;');
         }
     }
 });
